@@ -1,0 +1,41 @@
+========================================
+           termux-auto-forge
+========================================
+
+Backup Version : 3.0
+Backup Type    : Configuration Only
+
+Description:
+Backup of a customized Termux environment.
+
+Includes:
+- .bashrc
+- .termux (colors, font, settings)
+- list-view.py
+- tree-view.py
+- packages.txt
+- restore.sh
+- backup.sh
+- VERSION.txt
+- CHECKSUMS.txt
+- README.md
+
+Restores:
+✓ Font (JetBrainsMono Nerd Font)
+✓ Colors (16-color dark theme)
+✓ Aliases
+✓ eza icons
+✓ Tree view with sizes & dates
+✓ Wrapped output
+✓ Essential packages
+
+Notes:
+- Install Termux first.
+- Run: termux-setup-storage
+- Then execute:
+  source ~/storage/shared/termux-auto-forge/restore.sh
+
+Optional log:
+  bash ~/storage/shared/termux-auto-forge/restore.sh 2>&1 | tee ~/storage/shared/termux-auto-forge/restore.log
+
+========================================

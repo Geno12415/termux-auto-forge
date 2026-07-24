@@ -1,0 +1,17 @@
+bash
+bat
+command-not-found
+coreutils
+curl
+eza
+git
+less
+nano
+net-tools
+openssh
+python
+tar
+termux-am
+termux-tools
+unzip
+xz-utils

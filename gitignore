@@ -1,0 +1,22 @@
+# termux-auto-forge .gitignore
+
+# Archives
+*.tar.gz
+*.zip
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
